@@ -14,10 +14,12 @@ function WhyTender() {
     <div id="why-tender">
       <section className="why-tender">
         <div className="tender-app-img">
-          {windowSize > 1500 ? (
+          {windowSize > 991 ? (
             <img src={desktopImg} alt="" />
           ) : (
-            <img src={mobileImg} alt="" />
+            <div className="image-holder">
+              <img src={mobileImg} alt="" />
+            </div>
           )}
         </div>
 

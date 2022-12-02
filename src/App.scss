@@ -220,8 +220,17 @@ nav {
           border-radius: 10px;
           text-align: center;
           color: white;
+          font-size: 16px;
           cursor: pointer;
           border: 0.5px solid #172031;
+          transition: all 0.5s ease-in;
+
+          &:hover {
+            background-color: white;
+            color: #000;
+            border: 1px #000 solid;
+            transition: all 0.5s ease-in;
+          }
         }
       }
     }
@@ -510,6 +519,20 @@ nav {
   flex-direction: column;
   margin-bottom: 76px;
   margin-top: 100px;
+
+  .image-holder {
+    height: 511px;
+    width: 265px;
+    max-width: 265px;
+    max-height: 511px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
 
   @media screen and (min-width: 991px) {
     flex-direction: row;

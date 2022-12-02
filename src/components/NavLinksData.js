@@ -1,7 +1,7 @@
 const navLinksData = [
   {
     number: 1,
-    address: "#banner",
+    address: "#App",
     name: "Home",
   },
 
